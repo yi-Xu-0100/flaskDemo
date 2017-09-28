@@ -6,6 +6,7 @@ from . import main
 from .forms import NameForm
 from datetime import datetime
 
+
 @main.route('/', methods=['GET', 'POST'])
 def index():
     form = NameForm()
